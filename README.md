@@ -6,7 +6,7 @@ The function will return `(-1)` if error during execution or `NULL` if the strig
 If the format specifier is unknown, the function will print out the format specifier as a string.
 
 ## Prototype
-**int \_printf(const char *format, ...)**
+**int \_printf(const char \*format, ...)**
 - Returns: the number of characters printed(exluding the null byte used to end the output to strings.)
 - Writes output to stdout.
 - `format` is a character string. see [man 3 printf](https://man7.org/linux/man-pages/man3/printf.3.html).
